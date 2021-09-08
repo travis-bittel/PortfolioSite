@@ -42,6 +42,7 @@
   font-weight: bold;
   margin: 20px;
   margin-right: auto;
+  min-width: 600px;
 }
 .title:hover {
   text-decoration: underline;
