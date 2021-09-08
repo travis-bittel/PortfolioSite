@@ -94,6 +94,7 @@ h3 {
   margin-top: 10px;
   border-style: ridge;
   width: 30%;
+  min-width: 400px;
 }
 
 .horizRule {
