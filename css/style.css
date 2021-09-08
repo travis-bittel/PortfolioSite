@@ -1,0 +1,166 @@
+/* #region Navigation Bar */
+.navElement {
+  display: inline-block;
+  width: 6%;
+  min-width: 75px;
+}
+.navList {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(211, 211, 211);
+  list-style-type: none;
+  border:rgb(230, 230, 230);
+  border-width: 2px;
+  border-top-style: ridge;
+  border-bottom-style: ridge;
+  clear: both; /*Float below the titleBar*/
+}
+.navLink {
+  display: inline-block;
+  color: rgb(99, 99, 99);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: medium;
+  text-decoration: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 100%;
+}
+.navElement:hover {
+  background-color: rgb(228, 228, 228);
+}
+/* #endregion Navigation Bar */
+
+/* #region Title Bar */
+.title {
+  float: left;
+  color: rgb(196, 159, 38);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  line-height: 150%;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 20px;
+  margin-right: auto;
+}
+.title:hover {
+  text-decoration: underline;
+}
+.contact {
+  color: rgb(196, 159, 38);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  line-height: 150%;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 20px;
+  margin-left: auto;
+  float: right;
+}
+.contact:hover {
+  text-decoration: underline;
+}
+/* #endregion */
+
+body {
+  margin: 0;
+}
+
+.pageTitle {
+  display: block;
+  color: rgb(196, 159, 38);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  line-height: 150%;
+  margin: 20px;
+  text-align: center;
+}
+
+h3 {
+  display: block;
+  color: rgb(196, 159, 38);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  margin: 20px;
+  text-align: center;
+}
+
+.image {
+  border-width: 2px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  border-style: ridge;
+  width: 30%;
+}
+
+.horizRule {
+  width: 65%;
+  height: 1px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(218, 218, 218);
+  background-color: rgb(180, 180, 180);
+}
+
+.normalText {
+  display: block;
+  color: rgb(48, 48, 48);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: left;
+}
+
+.normalListElement {
+  color: rgb(48, 48, 48);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: left;
+}
+
+.normalList {
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 0;
+  list-style-type: disc;
+}
+
+.normalList2 {
+  margin-left: 22.5%;
+  margin-right: 22.5%;
+  padding: 0;
+  list-style-type: disc;
+}
+
+/*#region Index (Used on Games Page)*/
+.indexElement {
+  display: inline-block;
+  width: 6%;
+  min-width: 150px;
+}
+.indexList {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: circle;
+}
+.indexLink {
+  display: inline-block;
+  color: rgb(99, 99, 99);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+  text-decoration: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 100%;
+}
+.indexElement:hover {
+  background-color: rgb(228, 228, 228);
+}
+/*#endregion*/
