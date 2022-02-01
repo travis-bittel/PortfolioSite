@@ -146,6 +146,10 @@ a {
   list-style-type: disc;
 }
 
+.embed {
+  margin: auto;
+  width: 80%;
+}
 /*#region Index (Used on Games Page)*/
 .indexElement {
   display: inline-block;
