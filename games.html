@@ -4,6 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Travis Bittel | Games</title>
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
@@ -25,156 +30,112 @@
     <img src="imgs/loml0.png" class="image" style="width: 20%">
     <p class="normalText">
       Over the past year, I've worked on a number of game-related projects both as a part of my education and as a hobby. My standard for what is "portfolio-worthy" is constantly increasing as I learn more and develop my skills, but as of right now I consider the projects below worth being proud of. 
-      <br><br>
-      Here is an index of the projects on this page:
     </p>
 
-    <!--Index-->
-    <hr class="horizRule">
-    <ul class="indexList">
-      <li class="indexElement"><a href="games.html#beatDown" class="indexLink">BeatDown</a></li>
-      <li class="indexElement"><a href="games.html#dogDays" class="indexLink">Dog Days</a></li>
-      <li class="indexElement"><a href="games.html#loml" class="indexLink">Light Of My Life</a></li>
-      <li class="indexElement"><a href="games.html#jamTime" class="indexLink">JamTime</a></li>
-    </ul>
-    <hr class="horizRule">
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+      
+      <!--BeatDown-->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            <h2 class="pageTitle" id="beatDown">BeatDown</h2>
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+          <div class="accordion-body">
+            <h2 class="pageTitle" id="beatDown">BeatDown | Programmer, Designer</h2>
+            <p class="normalText">
+              Last spring, I worked on two projects with members of Georgia Tech's <a href="https://vgdev.gtorg.gatech.edu/" target="_blank">Video Game Dev Club (VGDev)</a>. BeatDown is a 2D, rhythm-based singleplayer and party game in which players (and AI in the singleplayer mode) control shapes on a board, moving to the beat and crashing into other shapes to destroy them.
+            </p>
+            <img src="imgs/beatdown2.png" class="image">
+            <p class="normalText">
+              The image above shows off the game's appearance. Each player or AI controls a shape - either a Square, Triangle, or Circle. Each shape brings a unique Ultimate to the table with which to destroy your enemies.
+            </p>
+            <img src="imgs/beatdown7.png" class="image">
+            <p class="normalText">
+              Above you can see the ultimates in use (Hint: they're the giant, over-the-top light beams.)
+            </p>
+            <img src="imgs/beatdown5.png" class="image">
+            <p class="normalText">
+              The chaos wouldn't be complete, however, without the Powerups. I was in charge of implementing all of the Powerups and played a hand in designing them as well. The Potato Bomb (pictured above between the two yellow circles) was my personal favorite invention: it moves around and can be pushed by players, eventually exploding when their fuse expires and destroying anyone nearby.
+            </p>
+            <img src="imgs/beatdown4.png" class="image">
+            <p class="normalText">
+              In addition to my work on Powerups and general issue-tackling, I played a part in implementing control rebinding, player preferences such as volume, and the end-screen UI - with the last task in particular being far more time consuming and stress-inducing than I had imagined.
+              <br><br>
+              <a href="https://www.youtube.com/watch?v=8H40PtNLm68" target="_blank">Video Demo</a>
+              <br><a href="https://abnormal202.itch.io/beatdown" target="_blank">Itch.io Page</a>
+            </p>
+          </div>
+        </div>
+      </div>
 
-    <!--BeatDown-->
-    <h2 class="pageTitle" id="beatDown">BeatDown | Programmer, Designer</h2>
-    <p class="normalText">
-      Last spring, I worked on two projects with members of Georgia Tech's <a href="https://vgdev.gtorg.gatech.edu/" target="_blank">Video Game Dev Club (VGDev)</a>. BeatDown is a 2D, rhythm-based singleplayer and party game in which players (and AI in the singleplayer mode) control shapes on a board, moving to the beat and crashing into other shapes to destroy them.
-    </p>
-    <img src="imgs/beatdown2.png" class="image">
-    <p class="normalText">
-      The image above shows off the game's appearance. Each player or AI controls a shape - either a Square, Triangle, or Circle. Each shape brings a unique Ultimate to the table with which to destroy your enemies.
-    </p>
-    <img src="imgs/beatdown7.png" class="image">
-    <p class="normalText">
-      Above you can see the ultimates in use (Hint: they're the giant, over-the-top light beams.)
-    </p>
-    <img src="imgs/beatdown5.png" class="image">
-    <p class="normalText">
-      The chaos wouldn't be complete, however, without the Powerups. I was in charge of implementing all of the Powerups and played a hand in designing them as well. The Potato Bomb (pictured above between the two yellow circles) was my personal favorite invention: it moves around and can be pushed by players, eventually exploding when their fuse expires and destroying anyone nearby.
-    </p>
-    <img src="imgs/beatdown4.png" class="image">
-    <p class="normalText">
-      In addition to my work on Powerups and general issue-tackling, I played a part in implementing control rebinding, player preferences such as volume, and the end-screen UI - with the last task in particular being far more time consuming and stress-inducing than I had imagined.
-      <br><br>
-      <a href="https://www.youtube.com/watch?v=8H40PtNLm68" target="_blank">Video Demo</a>
-      <br><a href="https://abnormal202.itch.io/beatdown" target="_blank">Itch.io Page</a>
-    </p>
+      <!--Dog Days-->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+            <h2 class="pageTitle" id="dogDays">Dog Days</h2>
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+          <div class="accordion-body">
+            <h2 class="pageTitle" id="dogDays">Dog Days | Programmer, Designer</h2>
+            <p class="normalText">
+              The other project I worked on in VGDev was the casual 3D game Dog Days in which the player controls two dogs to explore, complete small quests, and relax in a calming world.
+            </p>
+            <img src="imgs/dogdays0.png" class="image">
+            <p class="normalText">
+              Players alternate between controlling each dog to solve problems. They speak to NPCs (both human and dog alike) to receive and complete quests.
+            </p>
+            <img src="imgs/dogdays1.png" class="image">
+            <p class="normalText">
+              One of my major focuses on the project was creating a system for creating Player-NPC dialogue using XML. The system allowed defining chains of dialogue with response choices, conditions for responses to be available, and events which triggered upon selecting a particular dialogue option.
+            </p>
+            <img src="imgs/dogdays2.png" class="image">
+            <p class="normalText">
+              I also played a large part in creating the quest tracking system for the game and offered some design input on some of the quests which appear. I also created the framework for the player's inventory, including functionality such as picking up items, displaying the items in the inventory menu, and testing if the player has certain items to unlock dialogue options with NPCs or trigger events.
+            </p>
+            <img src="imgs/dogdays3.png" class="image">
+            <p class="normalText">
+              <a href="https://drive.google.com/file/d/1ZWYHixScYip05TaeHocbhwHUnlstL9-T/view?usp=sharing" target="_blank">Download</a>
+            </p>
+          </div>
+        </div>
+      </div>
 
-    <!--Index-->
-    <hr class="horizRule">
-    <ul class="indexList">
-      <li class="indexElement"><a href="games.html#top" class="indexLink">Back To Top</a></li>
-      <li class="indexElement"><a href="games.html#beatDown" class="indexLink">BeatDown</a></li>
-      <li class="indexElement"><a href="games.html#dogDays" class="indexLink">Dog Days</a></li>
-      <li class="indexElement"><a href="games.html#LOML" class="indexLink">Light Of My Life</a></li>
-      <li class="indexElement"><a href="games.html#jamTime" class="indexLink">JamTime</a></li>
-    </ul>
-    <hr class="horizRule">
-
-    <!--Dog Days-->
-    <h2 class="pageTitle" id="dogDays">Dog Days | Programmer, Designer</h2>
-    <p class="normalText">
-      The other project I worked on in VGDev was the casual 3D game Dog Days in which the player controls two dogs to explore, complete small quests, and relax in a calming world.
-    </p>
-    <img src="imgs/dogdays0.png" class="image">
-    <p class="normalText">
-      Players alternate between controlling each dog to solve problems. They speak to NPCs (both human and dog alike) to receive and complete quests.
-    </p>
-    <img src="imgs/dogdays1.png" class="image">
-    <p class="normalText">
-      One of my major focuses on the project was creating a system for creating Player-NPC dialogue using XML. The system allowed defining chains of dialogue with response choices, conditions for responses to be available, and events which triggered upon selecting a particular dialogue option.
-    </p>
-    <img src="imgs/dogdays2.png" class="image">
-    <p class="normalText">
-      I also played a large part in creating the quest tracking system for the game and offered some design input on some of the quests which appear. I also created the framework for the player's inventory, including functionality such as picking up items, displaying the items in the inventory menu, and testing if the player has certain items to unlock dialogue options with NPCs or trigger events.
-    </p>
-    <img src="imgs/dogdays3.png" class="image">
-    <p class="normalText">
-      <a href="https://drive.google.com/file/d/1ZWYHixScYip05TaeHocbhwHUnlstL9-T/view?usp=sharing" target="_blank">Download</a>
-    </p>
-
-    <!--Index-->
-    <hr class="horizRule">
-    <ul class="indexList">
-      <li class="indexElement"><a href="games.html#top" class="indexLink">Back To Top</a></li>
-      <li class="indexElement"><a href="games.html#beatDown" class="indexLink">BeatDown</a></li>
-      <li class="indexElement"><a href="games.html#dogDays" class="indexLink">Dog Days</a></li>
-      <li class="indexElement"><a href="games.html#LOML" class="indexLink">Light Of My Life</a></li>
-      <li class="indexElement"><a href="games.html#jamTime" class="indexLink">JamTime</a></li>
-    </ul>
-    <hr class="horizRule">
-
-    <!--LOML-->
-    <h2 class="pageTitle" id="LOML">Light Of My Life | Sole Programmer, Gameplay Designer, Sole Level Designer</h2>
-    <p class="normalText">
-      For the <a href="https://itch.io/jam/summer-southern-university-jam" target="_blank">Southern Student Summer Jam</a> in 2021, I worked alongside two others to create a 2D platformer game called Light Of My Life in 1 week. The jam theme was "Transmission" and we choose to base our game around a firefly who finds light messages from his family to find them after he gets left behind.
-    </p>
-    <img src="imgs/loml0.png" class="image">
-    <p class="normalText">
-      The game features two levels, each of which introduces a new power for the player to use. The first level (pictured above) uses Unity's 2D lightning system and sprite masking to create a dark atmosphere and a mechanic of limited vision. Players light lanterns to light up the area, unlock doors, and reveal new platforms to use.
-    </p>
-    <img src="imgs/loml1.png" class="image">
-    <p class="normalText">
-      The second level is far larger and introduces launch pads which launch the player in a set direction. It also brings the Dash ability which enables players to dash a short distance horizontally. By combining this ability with the launch pads, players can fly through the air to reach far off areas.
-    </p>
-    <img src="imgs/loml2.png" class="image">
-    <p class="normalText">
-      The above screenshot of the level before we put in art assets shows the overall flow: players first move to the left, using launch pads to climb up vertically. They then receive Dash which enables them to travel to the right and use it to solve that area, unlocking the way up the tree. They then combine both launch pads and dash in a final test of their abilities to reach the top and complete the game.
-    </p>
-    <p class="normalText">
-      I worked as the sole programmer and sole level designer on the project and played a large part in deciding the narrative, player abilities, and overall gameplay feel.
-      <br><br>
-      <a href="https://tbittel6.itch.io/light-of-my-life" target="_blank">Itch.io Page</a>
-    </p>
-
-    <!--Index-->
-    <hr class="horizRule">
-    <ul class="indexList">
-      <li class="indexElement"><a href="games.html#top" class="indexLink">Back To Top</a></li>
-      <li class="indexElement"><a href="games.html#beatDown" class="indexLink">BeatDown</a></li>
-      <li class="indexElement"><a href="games.html#dogDays" class="indexLink">Dog Days</a></li>
-      <li class="indexElement"><a href="games.html#LOML" class="indexLink">Light Of My Life</a></li>
-      <li class="indexElement"><a href="games.html#jamTime" class="indexLink">JamTime</a></li>
-    </ul>
-    <hr class="horizRule">
-
-    <!--JamTime-->
-    <h2 class="pageTitle" id="jamTime">Jam Time | Programmer, Gameplay Designer</h2>
-    <p class="normalText">
-      I also participated in the Summer 2021 VGDev Jam at Georgia Tech. The theme of the jam was "All Around You" which inspired us to create a 2D puzzle game in which players use magical jams to reveal environment pieces such as walls and buttons.
-    </p>
-    <img src="imgs/jamtime0.png" class="image">
-    <p class="normalText">
-      I came up with the core idea for the puzzles: the player picks up jam from jars (which come in 3 different flavors) and can consume the jam to gain temporary enhanced vision which reveals things in the world. This can reveal buttons which players can activate to unlock gates of the same color or can reveal walls to impede their progress.
-    </p>
-    <img src="imgs/jamtime2.png" class="image">
-    <p class="normalText">
-      The game also features a system in which the player moves a spoon into the jam jar on the bottom left, moves it up and down to "scoop up" jam, and then moves it into the player to "eat" it. 
-    </p>
-    <img src="imgs/jamtime1.png" class="image">
-    <p class="normalText">
-      After the 72 hour jam period, I returned to the game to add some polish. Namely, I added several features aimed at increasing user-friendliness such as a meter displaying the remaining time (and current color) of the player's enhanced vision, an (ugly but functional) raycast showing which gate the button the player pressed activated, and equally ugly yet functional zones to display where the bees will grab the players held jam should the player move inside.
-    </p>
-    <img src="imgs/jamtime3.png" class="image">
-    <p class="normalText">
-      Over the course of this project, I learned quite a lot about the importance (and difficulty) of conveying information to players properly. This was also my first time working on a true puzzle game, so I quickly learned which mechanics work and enable interesting level design and which ones simply don't. 
-      <br><br>
-      <a href="https://tbittel6.itch.io/jamtime" target="_blank">Itch.io Page</a>
-    </p>
-
-    <!--Index-->
-    <hr class="horizRule">
-    <ul class="indexList">
-      <li class="indexElement"><a href="games.html#top" class="indexLink">Back To Top</a></li>
-      <li class="indexElement"><a href="games.html#beatDown" class="indexLink">BeatDown</a></li>
-      <li class="indexElement"><a href="games.html#dogDays" class="indexLink">Dog Days</a></li>
-      <li class="indexElement"><a href="games.html#LOML" class="indexLink">Light Of My Life</a></li>
-      <li class="indexElement"><a href="games.html#jamTime" class="indexLink">JamTime</a></li>
-    </ul>
-    <hr class="horizRule">
+      <!--LOML-->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+            <h2 class="pageTitle" id="LOML">Light Of My Life</h2>
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+          <div class="accordion-body">
+            <h2 class="pageTitle" id="LOML">Light Of My Life | Sole Programmer, Gameplay Designer, Sole Level Designer</h2>
+            <p class="normalText">
+              For the <a href="https://itch.io/jam/summer-southern-university-jam" target="_blank">Southern Student Summer Jam</a> in 2021, I worked alongside two others to create a 2D platformer game called Light Of My Life in 1 week. The jam theme was "Transmission" and we choose to base our game around a firefly who finds light messages from his family to find them after he gets left behind.
+            </p>
+            <img src="imgs/loml0.png" class="image">
+            <p class="normalText">
+              The game features two levels, each of which introduces a new power for the player to use. The first level (pictured above) uses Unity's 2D lightning system and sprite masking to create a dark atmosphere and a mechanic of limited vision. Players light lanterns to light up the area, unlock doors, and reveal new platforms to use.
+            </p>
+            <img src="imgs/loml1.png" class="image">
+            <p class="normalText">
+              The second level is far larger and introduces launch pads which launch the player in a set direction. It also brings the Dash ability which enables players to dash a short distance horizontally. By combining this ability with the launch pads, players can fly through the air to reach far off areas.
+            </p>
+            <img src="imgs/loml2.png" class="image">
+            <p class="normalText">
+              The above screenshot of the level before we put in art assets shows the overall flow: players first move to the left, using launch pads to climb up vertically. They then receive Dash which enables them to travel to the right and use it to solve that area, unlocking the way up the tree. They then combine both launch pads and dash in a final test of their abilities to reach the top and complete the game.
+            </p>
+            <p class="normalText">
+              I worked as the sole programmer and sole level designer on the project and played a large part in deciding the narrative, player abilities, and overall gameplay feel.
+              <br><br>
+              <a href="https://tbittel6.itch.io/light-of-my-life" target="_blank">Itch.io Page</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
