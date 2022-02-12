@@ -141,6 +141,10 @@ a {
 
 .horizRule {
   width: 65%;
+  display: block;
+  margin:auto;
+  margin-top:10px;
+  margin-bottom:10px;
   height: 1px;
   border-width: 1px;
   border-style: solid;
