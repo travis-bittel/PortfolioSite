@@ -75,6 +75,7 @@
   border-style: solid;
   border-color: rgb(148, 148, 148);
   width: 70%;
+  min-width: 400px;
   margin: auto;
 }
 
