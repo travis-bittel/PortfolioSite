@@ -6,8 +6,8 @@
     <title>Travis Bittel | Game Design </title>
 
     <!--Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -28,19 +28,118 @@
     <!--Page Body-->
     <h2 class="pageTitle">Game Design</h2>
     <p class="normalText">
-      This is my page for dumping any design ideas that are at least mostly coherent. Don't mind the poor formatting, this page is most certainly a work in progress.
+      This is my page for dumping any design ideas that are at least mostly coherent.
     </p>
-    <h2 class="pageTitle">Scholar | D&D 5e Homebrew Class</h2>
-    <p class="normalText">
-      This is a homebrew class I made for D&D 5e. I've both played it myself and had a few friends give it a try as well with generally positive results.<br>
-      Highlighted portions contain design comments that may or may not look correct in your browser. Whoops.
-    </p>
-    <div class="embed">
-      <object data="pdfs/Scholar.pdf" type="application/pdf" width="100%" height="750px">
-        <embed src="pdfs/Scholar.pdf" type="application/pdf">
-            <p>This browser does not support PDFs. Please download the PDF to view it: <a href="pdfs/Scholar.pdf">Download PDF</a>.</p>
-        </embed>
-      </object>
+
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+      <!--Scholar-->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            <h2 class="pageTitle" id="scholar">Scholar | D&D 5e Homebrew Class</h2>
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+          <div class="accordion-body">
+            <h2 class="pageTitle" id="beatDown">Scholar | D&D 5e Homebrew Class</h2>
+            <p class="normalText">
+              This is a homebrew class I made for D&D 5e. I've both played it myself and had a few friends give it a try as well with generally positive results.<br>
+              Highlighted portions contain design notes.
+            </p>
+            <img src="imgs/scholar.png" class="image" style="width: 60%">
+
+            <h3 class="subHeader"><mark data-bs-toggle="tooltip" data-placement="top" title="Standard hitpoints for a full faster, identical to the Wizard.">Hit Points</mark></h3>
+            <p class="normalText">
+              <u>Hit Dice:</u> 1d6 per scholar level
+              <br><u>Hit Points at 1st Level:</u> 6 + your Constitution modifier
+              <br><u>Hit Points at Higher Levels:</u> 1d6 (or 4) + your Constitution modifier per scholar level after 1st
+            </p>
+
+            <h3 class="subHeader"><mark data-bs-toggle="tooltip" data-placement="top" title="Everything here is from the Wizard once again. I see no reason to change any of these, so we might as well keep to what we know is balanced and functional in the actual rulebook.">Proficiencies</mark></h3>
+            <p class="normalText">
+              <u>Armor:</u> None
+              <br><u>Weapons:</u> Daggers, darts, slings, quarterstaffs, light crossbows
+              <br><u>Tools:</u> None
+              <br><u>Saving Throws:</u> Intelligence, Wisdom
+              <br><u>Skills:</u> Choose two from Arcana, History, Insight, Investigation, Medicine, and Religion
+            </p>
+
+            <h3 class="subHeader">Equipment</h3>
+            <ul class="normalText">
+              <li>(a) a quarterstaff or (b) a dagger</li>
+              <li>(a) a component pouch or (b) an arcane focus</li>
+              <li>(a) a scholar's pack or (b) an explorer's pack</li>
+              <li><mark data-bs-toggle="tooltip" data-placement="top" title="A unique item that serves as a spellcasting focus and is required to use one of the class' signature abilities. Quite a nice flavor piece as well.">A Primordial Quill</mark></li>
+            </ul>
+
+            <h3 class="subHeader">Spellcasting</h3>
+            <p class="normalText">
+              Years of devoted study have enabled you to tap into magical energy and use it to cast spells. You use the <mark data-bs-toggle="tooltip" data-placement="top" title="If I was to spend the time, I could create a unique spell list for this class, but seeing as this class grew out of my desire to use the wizard spell list combined with my frustration for how boring the Wizard's class features are, I decided to keep it as is. Balancing efforts towards this class should probably begin here: take out some of the major power players for Wizards to compensate for the power of the Scholar's unique abilities.">wizard spell list</mark> and all spells you learn from this class count as wizard spells for you.
+              <br><br>Your tendency to specialize heavily in specific areas of study manifests in you <mark data-bs-toggle="tooltip" data-placement="top" title="A small power decrease to partially compensate for the utlity provided by the Scholar's unique abilities. Giving them fewer spell slots makes them feel like a weaker caster, while giving them fewer spells gives the impression of a specialized academic.">knowing fewer spells</mark> than most spellcasters of a comparable level.
+            </p>
+
+            <h3 class="subHeader">Cantrips</h3>
+            <p class="normalText">
+              At 1st level, you know two cantrips of your choice from the wizard spell list. You learn additional wizard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Scholar table.
+            </p>
+
+            <h3 class="subHeader">Spell Slots</h3>
+            <p class="normalText">
+              The Scholar table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these wizard spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
+              <br><br>
+              For example, if you know the 1st-level spell Burning Hands and have a 1st-level and a 2nd-level spell slot available, you can cast Burning Hands using either slot.
+            </p>
+
+            <h3 class="subHeader">Spells Known of 1st Level and Higher</h3>
+            <p class="normalText">
+              You <mark data-bs-toggle="tooltip" data-placement="top" title="It might be too strong to allow this class to prepare their spells, but the small number of spells known makes this more balanced.">prepare</mark> the list of wizard spells that are available for you to cast. To do so, choose a number of wizard spells from the wizard spell list equal to your Intelligence modifier + 1/3 your Scholar level (rounded down, minimum of one spell). The spells must be of a level for which you have spell slots.
+              <br><br>
+              When you complete a long rest, you may replace one of the wizard spells you know with another wizard spell of a level for which you have spell slots.
+            </p>
+
+            <h3 class="subHeader">Spellcasting Ability</h3>
+            <p class="normalText">
+              Intelligence is your spellcasting ability for your wizard spells, since the power of your magic relies on your ability to study and memorize the intricacies of magic. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.
+              <br><br>
+              <u>Spell save DC</u> = 8 + your proficiency bonus + your Intelligence modifier
+              <br><u>Spell attack modifier</u> = your proficiency bonus + your Intelligence modifier
+            </p>
+
+            <h3 class="subHeader">Spellcasting Focus</h3>
+            <p class="normalText">
+              You can use an arcane focus or your Primordial Quill as a spellcasting focus for your wizard spells.
+            </p>
+
+            <h3 class="subHeader"><mark data-bs-toggle="tooltip" data-placement="top" title="It would feel incredibly odd to not have Ritual Casting on a class that spends time writing intricate glyphs on the ground to create magical effects. If I needed to pull some power away from the class, I would consider cutting this, but in truth I find the lack of Ritual Casting on some classes quite awkward thematically — what Warlock worth their salt doesn't perform an eldritch ritual to commune with their patron every now and then? That said, it's an easy thing to cut without hindering the rest of the class, so I'd say its up first on the chopping block for removal.">Ritual Casting</mark></h3>
+            <p class="normalText">
+              You can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell prepared.
+            </p>
+
+            <h3 class="subHeader">Primordial Quill</h3>
+            <p class="normalText">
+              You carry a Primordial Quill which you can use a spellcasting focus for your wizard spells.
+              <br><br>Through your studies, you have learned to write powerful words of primordial power that manipulate the world around you. You can learn two Primordial Words in total and additional ones at levels 6 and 13. Primordial Words are split into two categories: Glyphs and Incantations.
+              <br><br>You require a charge to write a Glyph or speak an Incantation. You have a number of charges equal to your 2 + your Proficiency Bonus. You regain all charges when finishing a long rest.
+              <br><br>At 1st Level, you gain access to Glyphs. Glyphs require 1 minute to write due to their intricacy, during which time you must remain focused and use your Primordial Quill to draw the glyph from memory. You may choose from the following Glyphs:
+              <ul class="normalText">
+                <li><u>Glyph of Piercing Vision:</u> When drawn onto a surface, this glyph can affect a circular area up to 5ft in radius. All creatures on the side of the surface on which the glyph was drawn can see through to the other side, provided that the surface is no more than 5ft thick and has no anti-magic properties. The glyph remains active for up to 1 hour and can be dismissed by the caster at will.</li>
+                <li><u>Glyph of Warding Force:</u> After being drawn onto a surface, this glyph can be activated by the caster as a Bonus Action or Reaction to create a wall of force up to 5ft in two directions and up to 15ft tall from the location the glyph was drawn on. The wall of force can only run along the surface, otherwise it will not appear. The wall persists for 1 minute. During that time, any creature which sends a projectile through the wall must make an Intelligence Saving Throw against your Spell Save DC to avoid having the projectile be destroyed on contact with the wall. In addition, any creature which attempts to pass through the wall must make a Constitution Saving Throw against Spell Save DC. If they fail the save, their speed becomes 0 until the start of their next turn, and are knocked prone.</li>
+                <li><u>Glyph of Anchoring:</u> When a creature moves within 5ft of this glyph, the glyph activates, Paralyzing them for up to 1 minute. During that time, they can attempt a Wisdom Saving Throw against your Spell Save DC at the end of each of their turns, ending the effect on a success. If the target is immune to being Paralyzed or of a size greater than Large, they are instead Restrained for the same duration. You can specify any number of creatures to be immune to the glyph when you first draw it.</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
+
+    <!--Enable Tooltips-->
+    <script>
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+      })
+    </script>
   </body>
 </html>
+
+<!--<mark data-bs-toggle="tooltip" data-placement="top" title=". . .">. . .</mark>-->
