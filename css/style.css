@@ -67,6 +67,11 @@
   text-decoration: underline;
   color: rgb(255, 210, 64);
 }
+
+.tooltip-inner {
+  max-width: 50% !important;
+  margin: auto;
+}
 /* #endregion */
 
 .accordion-item {
