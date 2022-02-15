@@ -8,7 +8,7 @@
   text-align: center;
   padding: 0;
   margin: 0;
-  background-color: rgb(105, 105, 105);
+  background-color: rgb(255, 255, 255);
   list-style-type: none;
   border:rgb(230, 230, 230);
   border-width: 2px;
@@ -18,7 +18,7 @@
 }
 .navLink {
   display: inline-block;
-  color: rgb(240, 240, 240);
+  color: rgb(100, 100, 100);
   font-weight: bold;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: medium;
@@ -28,44 +28,44 @@
   width: 100%;
 }
 .navLink:hover {
-  color: rgb(240, 240, 240);
+  color: rgb(44, 207, 255);
 }
 .navElement:hover {
-  background-color: rgb(124, 124, 124);
+  background-color: rgb(255, 255, 255);
 }
 /* #endregion Navigation Bar */
 
 /* #region Title Bar */
 .title {
   float: left;
-  color: rgb(255, 210, 64);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(100, 100, 100);
+  font-family: Helvetica, sans-serif;
   font-size: 30px;
   line-height: 150%;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: bolder;
   margin: 20px;
   margin-right: auto;
   padding-right: 100px;
 }
 .title:hover {
-  text-decoration: underline;
-  color: rgb(255, 210, 64);
+  text-decoration: none;
+  color: rgb(44, 207, 255);
 }
 .contact {
-  color: rgb(255, 210, 64);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(100, 100, 100);
+  font-family: Helvetica, sans-serif;
   font-size: 30px;
   line-height: 150%;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: bolder;
   margin: 20px;
   margin-left: auto;
   float: right;
 }
 .contact:hover {
-  text-decoration: underline;
-  color: rgb(255, 210, 64);
+  text-decoration: none;
+  color: rgb(44, 207, 255);
 }
 
 .tooltip-inner {
@@ -75,7 +75,7 @@
 /* #endregion */
 
 .accordion-item {
-  background-color: rgb(39, 39, 39);
+  background-color: rgb(240, 240, 240);
   border-width: 1px;
   border-style: solid;
   border-color: rgb(148, 148, 148);
@@ -85,23 +85,23 @@
 }
 
 .accordion-button {
-  background-color: rgb(63, 63, 63);
+  background-color: rgb(240, 240, 240);
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: rgb(63, 63, 63);
+  background-color: rgb(240, 240, 240);
 }
 
 body {
   margin: 0;
-  background-color: rgb(39, 39, 39);
+  background-color: rgb(255, 255, 255);
 }
 
 .pageTitle {
   display: block;
-  color: rgb(255, 210, 64);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: bold;
+  color: rgb(0, 171, 201);
+  font-family: Georgia, serif;
+  font-weight: bolder;
   font-size: 25px;
   line-height: 150%;
   margin: 20px;
@@ -110,8 +110,8 @@ body {
 
 h3 {
   display: block;
-  color: rgb(255, 210, 64);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(0, 171, 201);
+  font-family: Georgia, serif;
   font-size: 20px;
   line-height: 150%;
   margin: 20px;
@@ -120,7 +120,7 @@ h3 {
 
 .subHeader {
   display: block;
-  color: rgb(255, 210, 64);
+  color: rgb(0, 171, 201);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   line-height: 150%;
@@ -154,14 +154,14 @@ a {
   height: 1px;
   border-width: 1px;
   border-style: solid;
-  border-color: rgb(218, 218, 218);
-  background-color: rgb(180, 180, 180);
+  border-color: rgb(48, 48, 48);
+  background-color: rgb(48, 48, 48);
 }
 
 .normalText {
   display: block;
-  color: rgb(240, 240, 240);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(32, 32, 32);
+  font-family: Helvetica, sans-serif;
   font-size: 18px;
   line-height: 150%;
   margin-left: 20%;
@@ -170,8 +170,8 @@ a {
 }
 
 .normalListElement {
-  color: rgb(240, 240, 240);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(32, 32, 32);
+  font-family: Helvetica, sans-serif;
   font-size: 18px;
   line-height: 150%;
   text-align: left;
