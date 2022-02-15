@@ -10,10 +10,10 @@
   margin: 0;
   background-color: rgb(255, 255, 255);
   list-style-type: none;
-  border:rgb(230, 230, 230);
+  border-color: rgb(215, 215, 215);
   border-width: 2px;
-  border-top-style: ridge;
-  border-bottom-style: ridge;
+  border-top-style: inset;
+  border-bottom-style: inset;
   clear: both; /*Float below the titleBar*/
 }
 .navLink {
@@ -94,7 +94,12 @@
 
 body {
   margin: 0;
-  background-color: rgb(255, 255, 255);
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 60%, rgb(235, 235, 235) 100%) fixed;
+}
+
+html {
+  height: 100%;
 }
 
 .pageTitle {
