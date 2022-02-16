@@ -74,6 +74,18 @@
 }
 /* #endregion */
 
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(240, 240, 240);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(148, 148, 148);
+  color: white;
+  text-align: center;
+}
+
 .accordion-item {
   background-color: rgb(240, 240, 240);
   border-width: 1px;
